@@ -1,0 +1,166 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #0074e4;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    animation: colorChange 5s infinite alternate;
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: #0074e4;
+    }
+    100% {
+        background-color: #ff6b6b;
+    }
+}
+
+.subtitle {
+    color: #fff;
+    font-style: italic;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0074e4;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ff6b6b;
+}
+
+section.hero {
+    background-color: #ff6b6b;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    font-size: 18px;
+}
+
+
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    position: relative;
+    min-height: 100vh; /* Ensure the page takes at least the full viewport height */
+}
+
+header {
+    background-color: #0074e4;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    animation: colorChange 5s infinite alternate;
+}
+
+/* Other styles for navigation, content, etc. */
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0074e4;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* ... (previous styles) ... */
+
+.hidden-section {
+    display: none;
+}
+
+#toggleButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #0074e4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#toggleButton:hover {
+    background-color: #ff6b6b;
+}
+/* ... Previous styles ... */
+
+/* Add hover effect to navigation links */
+nav a {
+    text-decoration: none;
+    color: #0074e4;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ff6b6b;
+}
+
+/* Add hover effect to project images */
+.project img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+}
+
+/* Add hover effect to footer text */
+footer p {
+    text-align: center;
+    padding: 10px;
+    background-color: #0074e4;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+footer p:hover {
+    background-color: #ff6b6b;
+}
